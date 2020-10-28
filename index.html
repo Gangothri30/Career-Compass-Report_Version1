@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="input1">
+    <form class="form-input">
+        <h1><center>GOING BEYOND PERFORMANCE TO PERFORMING CAREER</center></h1>
+        <p>No. Career COMPASS Survey: Rate 1 to 10(1 is low/stringly disagree , 10 is high/strongly agree)</p>
+        <ol>
+            <li>
+                You are coping well and doing what you like at work .
+                <input type="text" id="question1" name="question1" placeholder="Response 1" onkeyup="myFunction()"><br><br>
+    
+            </li>
+            <li>
+                You are good at your job.
+                <input type="text" id="question2" name="question1" placeholder="Response 2" onkeyup="myFunction()"><br><br>
+            </li>
+            <li>
+                Your job helps you learn or grow. 
+                <input type="text" id="question3" name="question1" placeholder="Response 3" onkeyup="myFunction()"><br><br>
+            </li>
+        </ol>
+    <input type="submit" id="submit" value="Submit">
+</form>
+<img src="career_image.jpg" alt="image" />
+</div>
+<div class="box">
+<div id="output">
+    <h3 style="background-color: #e8ffff;color:orange;text-align: center;text-decoration: underline;">Career COMPASS Report</h3><br>
+    <div class="layout">
+    <div class="triangle1">
+        <span class="side1">Drive</span>
+        <span class="side2">Skill</span>
+        <span class="side3">Growth</span>
+    </div>
+    <div class="triangle">
+       <span class="side4">1</span>
+       <span class="side5">2</span>
+       <span class="side6">3</span>
+    </div>
+    
+    
+
+    </div>
+    <table class="table3" border="1">
+        <tr>
+            <td>Drive</td>
+            <td class="side7"></td>
+        </tr>
+        <tr>
+            <td>Skill</td>
+            <td class="side8"></td>
+        </tr>
+        <tr>
+            <td>Growth</td>
+            <td class="side9"></td>
+        </tr>
+    </table>
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;
+    position:absolute;top:80px;right:110px;"></canvas>
+    <table  class="table2" border="1">
+        <span class="high">High Drive</span>
+        <span class="low">Low Drive</span>
+        <span class="highSkill">High Skill</span>
+        <span class="lowSkill">Low Skill</span>
+        <span class="dot"></span>
+        <span class="dot1"></span>
+        <span class="dot2"></span>
+        <span class="dot3"></span>
+        <span class="dot4"></span>
+        <span class="dot5"></span>
+       <span class="dot6"></span>
+       <span class="dot7"></span>
+        
+        <tr>
+            <td style="background-color: #8bcdcd;">Positive Stretch
+               
+            </td>
+            
+            <td style="background-color: #cee397;">Potential Tapped</td>
+        </tr>
+        <tr>
+            <td style="background-color: #f4abc4;">Negative Stretch</td>
+            <td style="background-color: #ffefa0;">Potential Hindered</td>
+        </tr>
+    </table>
+    
+   
+<table class="table1" border="1">
+    <tr class="row" >
+        <td class="heading">
+            DRIVE
+        </td>
+        <td class="drive">
+
+        </td>
+    </tr>
+    <tr class="row">
+        <td class="heading">
+            SKILL
+        </td>
+        <td class="skill">
+
+        </td>
+    </tr>
+    <tr class="row">
+        <td class="heading">
+            GROWTH
+        </td>
+        <td class="growth">
+
+        </td>
+    </tr>
+    <tr class="row">
+        <td class="heading">
+            SUMMARY
+        </td>
+        <td class="summary">
+
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+    
+    
+    <p id="root"></p>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
